@@ -13,7 +13,7 @@ var Word = function (word) {
         for (var i = 0; i < this.letters.length; i++) {
             str += this.letters[i].printLetter() + " ";
         }
-        return str + "\n";
+        return str + "\n\n";
     }
 
     this.guess = function (c) {
